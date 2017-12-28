@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F31DFF641FF4875B000B9577 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F31DFF631FF4875B000B9577 /* AppDelegate.m */; };
-		F31DFF671FF4875B000B9577 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31DFF661FF4875B000B9577 /* ViewController.m */; };
 		F31DFF6A1FF4875B000B9577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31DFF681FF4875B000B9577 /* Main.storyboard */; };
 		F31DFF6C1FF4875B000B9577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31DFF6B1FF4875B000B9577 /* Assets.xcassets */; };
 		F31DFF6F1FF4875B000B9577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31DFF6D1FF4875B000B9577 /* LaunchScreen.storyboard */; };
 		F31DFF721FF4875B000B9577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F31DFF711FF4875B000B9577 /* main.m */; };
 		F31DFF7C1FF4875C000B9577 /* LSLargeImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31DFF7B1FF4875C000B9577 /* LSLargeImageTests.m */; };
 		F31DFF871FF4875C000B9577 /* LSLargeImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31DFF861FF4875C000B9577 /* LSLargeImageUITests.m */; };
+		F31DFF961FF4876C000B9577 /* LSLargeImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31DFF941FF4876C000B9577 /* LSLargeImageController.m */; };
+		F31DFF991FF48778000B9577 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31DFF981FF48778000B9577 /* ViewController.m */; };
+		F31DFF9B1FF4879E000B9577 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F31DFF9A1FF4879E000B9577 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +40,6 @@
 		F31DFF5F1FF4875B000B9577 /* LSLargeImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSLargeImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31DFF621FF4875B000B9577 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F31DFF631FF4875B000B9577 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F31DFF651FF4875B000B9577 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F31DFF661FF4875B000B9577 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F31DFF691FF4875B000B9577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F31DFF6B1FF4875B000B9577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F31DFF6E1FF4875B000B9577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,11 @@
 		F31DFF821FF4875C000B9577 /* LSLargeImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSLargeImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31DFF861FF4875C000B9577 /* LSLargeImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSLargeImageUITests.m; sourceTree = "<group>"; };
 		F31DFF881FF4875C000B9577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31DFF941FF4876C000B9577 /* LSLargeImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLargeImageController.m; sourceTree = "<group>"; };
+		F31DFF951FF4876C000B9577 /* LSLargeImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLargeImageController.h; sourceTree = "<group>"; };
+		F31DFF971FF48778000B9577 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../1LSLargeImage/LSLargeImage/ViewController.h; sourceTree = "<group>"; };
+		F31DFF981FF48778000B9577 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../1LSLargeImage/LSLargeImage/ViewController.m; sourceTree = "<group>"; };
+		F31DFF9A1FF4879E000B9577 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		F31DFF611FF4875B000B9577 /* LSLargeImage */ = {
 			isa = PBXGroup;
 			children = (
+				F31DFF951FF4876C000B9577 /* LSLargeImageController.h */,
+				F31DFF941FF4876C000B9577 /* LSLargeImageController.m */,
 				F31DFF621FF4875B000B9577 /* AppDelegate.h */,
 				F31DFF631FF4875B000B9577 /* AppDelegate.m */,
-				F31DFF651FF4875B000B9577 /* ViewController.h */,
-				F31DFF661FF4875B000B9577 /* ViewController.m */,
+				F31DFF971FF48778000B9577 /* ViewController.h */,
+				F31DFF981FF48778000B9577 /* ViewController.m */,
+				F31DFF9A1FF4879E000B9577 /* 1.jpg */,
 				F31DFF681FF4875B000B9577 /* Main.storyboard */,
 				F31DFF6B1FF4875B000B9577 /* Assets.xcassets */,
 				F31DFF6D1FF4875B000B9577 /* LaunchScreen.storyboard */,
@@ -239,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F31DFF6F1FF4875B000B9577 /* LaunchScreen.storyboard in Resources */,
+				F31DFF9B1FF4879E000B9577 /* 1.jpg in Resources */,
 				F31DFF6C1FF4875B000B9577 /* Assets.xcassets in Resources */,
 				F31DFF6A1FF4875B000B9577 /* Main.storyboard in Resources */,
 			);
@@ -265,9 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F31DFF671FF4875B000B9577 /* ViewController.m in Sources */,
+				F31DFF961FF4876C000B9577 /* LSLargeImageController.m in Sources */,
 				F31DFF721FF4875B000B9577 /* main.m in Sources */,
 				F31DFF641FF4875B000B9577 /* AppDelegate.m in Sources */,
+				F31DFF991FF48778000B9577 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LSLargeImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.QiYingliTechnology.CarouselView.LSLargeImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiYingliTechnology.LSLargeImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,7 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LSLargeImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.QiYingliTechnology.CarouselView.LSLargeImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiYingliTechnology.LSLargeImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
